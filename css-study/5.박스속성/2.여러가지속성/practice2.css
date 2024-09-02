@@ -1,0 +1,55 @@
+
+
+/* 
+    a의 밑줄을 없애는 속성은 text-decoration: none 입니다.
+
+    전체 div의 width는 70%으로 지정했고, 배경은 gray 입니다.
+    글자들은 흰색 입니다.
+
+    li에는 적절한 margin을 주었습니다.
+
+    a의 폰트 크기는 1.5em입니다.
+    그림자 효과는 text-shadow: 5px 5px 20px #000; 로 지정했습니다.
+
+    hover 시의 컬러는 yellow, 배경은 skyblue로 지정했습니다.
+*/
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+div {
+    width: 70%;
+    background-color: lightgray;
+    color: white;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+div ul li {
+    margin-bottom: 30px;
+
+}
+
+div ul li:last-child {
+    margin-bottom: 0;
+
+}
+
+div ul li a {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px;
+
+}
+
+div ul li a:hover {
+    color: yellow;
+    font-weight: bold;
+    background-color: skyblue;
+    /* x축 y축 블러크기, 색상 */
+    text-shadow: 5px 5px 20px #000;
+
+}
